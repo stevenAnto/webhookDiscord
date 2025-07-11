@@ -23,7 +23,6 @@ Mira una demostración rápida del funcionamiento del bot y la API:
 
 - Escucha mensajes en un canal de Discord.
 - Responde automáticamente a mensajes como `"hola"`.
-- Permite enviar mensajes a un canal vía una API POST (`/send_message`).
 
 ---
 
@@ -96,8 +95,6 @@ Con cuerpo JSON:
 ## 📎 Recomendaciones
 
 - No compartas tu token público (guárdalo en un `.env` si lo vas a subir a producción).
-- Usa `ngrok` si necesitas exponer tu API Flask a servicios externos.
-- Para ambientes reales, usa un servidor WSGI como Gunicorn.
 
 ---
 
@@ -109,5 +106,3 @@ Asegúrate de proteger tu endpoint `/send_message` si lo expones públicamente (
 
 ## 🧑‍💻 Autor
 
-Creado por [TuNombre]  
-Contacto: [TuCorreo o GitHub]
